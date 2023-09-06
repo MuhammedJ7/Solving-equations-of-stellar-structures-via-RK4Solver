@@ -1,0 +1,6 @@
+Hello this will be an intro to how i did my third year project 
+Title : Equations of Stellar Structures
+Description : The objective of this project was to use Runge-Kutta methods to solve the spherically symetric equations of stellar Structure
+describing newtonian stellar objects, such as white dwarfs (Lane-emden equation) or relatavistic objects, 
+such as neutron stars (Tolman -Oppenheimer-volkoff equation), was given some guidance and tips on how to problem solve
+specific instances dealing with relatavity 
