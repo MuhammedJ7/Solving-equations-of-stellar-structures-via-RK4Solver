@@ -1,0 +1,32 @@
+Below is the project feedmark and marking by the two exam board examiners
+
+Please find examiner comments below.
+
+ 
+
+1st EXAMINER COMMENTS
+
+
+For this project, the student was asked to investigate numerical methods for solving the equations of stellar structure 
+governing white dwarves or neutron stars. The student was not familiar with general relativity, so he opted for the former, 
+namely the Lane-Emden equation. 
+
+The literature is reviewed relatively well, and there is a good attempt at physical explanation of the principles underlying 
+the equations of stellar structure (for a student with a background in mathematics and not physics).
+
+The student made a very nice and clear presentation at the School.
+
+
+The coding/numerical aspect is also covered relatively well. The student implemented his own Runge-Kutta solver in Python. 
+There is a missed opportunity to discuss numerical errors, e.g. by comparing to exact solutions, or performing convergence testing. 
+This would have been useful for understanding numerical accuracy and validating the code.
+
+The text could benefit from more detail. It does flow relatively well, but at points it appears patchy, with information assembled 
+from different sources. The bibliography is well written and formatted, but it could sample more of the vast literature on the 
+subject.
+
+On balance, however, the project deserves upper 60’s or low 70’s.
+My recommendation is 71/100.
+
+2ND EXAMINER COMMENTS
+
