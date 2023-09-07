@@ -2,7 +2,6 @@ Below is the project feedmark and marking by the two exam board examiners
 
 Please find examiner comments below.
 
- 
 
 1st EXAMINER COMMENTS
 
@@ -29,4 +28,11 @@ On balance, however, the project deserves upper 60’s or low 70’s.
 My recommendation is 71/100.
 
 2ND EXAMINER COMMENTS
+
+Overall this is a nice project, with a nice exposition on the underlying motivation, a good description of the mathematics, 
+and an implementation. The text reads generally well although the organisation is somewhat lacking and the document lacks some polish.
+Further the explanation of the code could be done in a more abstract way rather than recounting the different functions.  
+Nonetheless the fact that a numerical solver was implemented rather than simply calling a function is an important aspect. 
+This together with the good explanation of the differential equations (and their limitations) is why I think this project does 
+deserve first degree honours. I agree with the first markers assessment of 71 points. 
 
