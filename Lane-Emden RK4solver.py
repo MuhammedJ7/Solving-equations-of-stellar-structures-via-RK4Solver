@@ -80,3 +80,49 @@ class Polytrope:
             f[1] = -2.0 * q[1] / xi - q[0] ** self.n
 
         return f
+    
+    def standard_parameters ( self ) :
+         """ return the standard polytrope parameters xi_1, and [-xi**2 theta']_{xi_1} """
+
+        xi1 , p2 = self . xi [ -1] , - self . xi [ -1] ** 2 * self.
+             dtheta_dxi[ -1]
+    
+        return xi1 , p2
+
+    def plot(self):
+
+        """ plot the solution """
+
+        fig = plt.figure()
+
+        ax = fig.add_subplot(111)
+
+        ax.plot(self.xi, self.theta, label=r"$\theta$")
+
+        ax.plot(self.xi, self.theta**self.n, label=r"$\rho/\rho_c$")
+
+        ax.set_xlabel(r"$\xi$")
+
+        ax.legend(frameon=False)
+
+        return fig
+
+p = Polytrope(1.5)
+
+fig = p.plot()
+
+p = Polytrope(3)
+
+fig = p.plot()
+
+for i, nindex in enumerate([1.5,3]):
+
+    p = Polytrope(nindex)
+
+    params = p.standardparameters()
+
+    if i == 0:
+
+        print(f"{'n':4} : {'ξ1':^20} {'-ξ1^2 dθ/dξ |_ξ1':^20}")
+
+    print("{:4} : {:20.10g} {:20.10g}".format(nindex, params[0], params[1]))
